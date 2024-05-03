@@ -25,8 +25,8 @@ function PostCard({ data }: Readonly<Props>) {
       <a className="relative overflow-hidden" href={`/post/${slug}/`}>
         <Image
           src={image}
-          width={data.image_width}
-          height={data.image_height}
+          width={600}
+          height={200}
           alt={`img of ${title}`}
           className="h-full min-w-full object-cover hover:scale-[101%] transition-all duration-200 rounded-[2px]"
         />
